@@ -1,0 +1,38 @@
+ /pet/findByStatus
+ /pet/{petId}
+ /user/createWithList
+ /store/{order}/{orderid}
+ /store/inventory
+ /store/order/{orderId}
+ /user/login
+ /{pet1}
+ /{ept}/pet/
+ /pet/findByTags
+ /pet/{petId}/uploadImage
+ /user
+ /user/logout
+ /user/{username}
+ /{pet}/{pet1}/{pwr2}
+ /pet
+ /store/order
+ /store/{order}/orderId
+
+
+/pet
+/pet/findByStatus
+/pet/findByTags
+/pet/{petId}
+/pet/{petId}/uploadImage
+/store/inventory
+/store/order
+/store/order/{orderId}
+/store/{order}/orderId
+/store/{order}/{orderid}
+/user
+/user/createWithList
+/user/login
+/user/logout
+/user/{username}
+/{ept}/pet/
+/{pet1}
+/{pet}/{pet1}/{pwr2}

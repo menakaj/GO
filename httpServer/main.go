@@ -127,8 +127,8 @@ OUTER:
 				fmt.Println("SIG ABRT")
 			}
 			break OUTER
-		case <-watcher.Events:
-			fmt.Println("Something happened")
+		case e := <-watcher.Events:
+			fmt.Println("Something happened", e)
 			f, _ := os.Open("anc.text")
 			b, _ := ioutil.ReadAll(f)
 			fmt.Println(string(b))

@@ -24,6 +24,7 @@ func setBook(isbn string, name string) {
 }
 
 func setCD(cd string, name string) {
+
 	addToCache(CacheKeyCD+cd, name)
 }
 

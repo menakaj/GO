@@ -42,6 +42,7 @@ func main() {
 		Name   string `json:"coursename"`
 		Nubmer int    `json:"coursenum"`
 		Hours  int    `json:"coursehours"`
+		Marks int 	   `json:"marks,omitempty",default: "2"`
 	}
 
 	type student struct {
@@ -55,15 +56,16 @@ func main() {
 
 	type person struct {
 		Name string `json:"fname"`
+		ID string `json: "id, omitempty"`
 	}
 
 	var stu student
 
-	var p person
+	 p := person{Name: "Abcs", ID:"dfsdfd"}
 
 	err := json.Unmarshal(data, &p)
 
-	p2 := person{Name: "Saman"}
+	p2 := person{Name: "Saman", ID:"Saman"}
 
 	err2 := json.Unmarshal(studentInfo, &stu)
 
@@ -76,7 +78,7 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	} else {
-		fmt.Println(p.Name)
+		fmt.Println(p)
 	}
 
 	byts, err := json.Marshal(p2)

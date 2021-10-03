@@ -1,5 +1,7 @@
 github.com/fsnotify/fsnotify v1.4.9 h1:hsms1Qyu0jgnwNXIxa+/V/PDsU6CfLf6CNO8H7IWoS4=
 github.com/fsnotify/fsnotify v1.4.9/go.mod h1:znqG4EE+3YCdAaPaxE2ZRY/06pZUdp0tY4IgpuI1SZQ=
+github.com/mathetake/proxy-wasm-go v0.0.0-20200331024954-af5a4332add6 h1:ahDiJy33QdI7zpsYYPPQQYyiE68hPh6RNIh1TRGwnu0=
+github.com/mathetake/proxy-wasm-go v0.0.0-20200331024954-af5a4332add6/go.mod h1:nIY0Wi70b7TD3KV6aIGGTvQ0mb/vt0HzplLxDJIhuk8=
 github.com/radovskyb/watcher v1.0.7 h1:AYePLih6dpmS32vlHfhCeli8127LzkIgwJGcwwe8tUE=
 github.com/radovskyb/watcher v1.0.7/go.mod h1:78okwvY5wPdzcb1UYnip1pvrZNIVEIh/Cm+ZuvsUYIg=
 golang.org/x/sys v0.0.0-20191005200804-aed5e4c7ecf9 h1:L2auWcuQIvxz9xSEqzESnV/QN/gNRXNApHi3fYwl2w0=
